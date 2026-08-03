@@ -4,7 +4,7 @@
 
 BrowserSec is a local plug'n'play , automatic browser-security and privacy scanner . ( ASSISTANTS 5.6-SOL & LUNA ) 
 
-## What the user does
+## How it work  
 
 1. Run `browsersec`.
 2. The default browser opens automatically.
@@ -66,10 +66,10 @@ This is the frist full RE-WORK of my old BrowserCheckTests script  , Same concep
 
 Future updates  : 
 
-> Mails , Passwords & Usernames  lookup by dedicated services 
+> Mails , Passwords & Usernames  lookup by dedicated  database through api 
 
 
-> Website integration 
+> Websites integration 
 
 
 > enforcing Zero-Storage policy :  no analytics, telemetry, crash uploads, identifiers, or remote scan history.
