@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<script>
+(() => {
+  const result = {
+    type: "browsersec-third-party",
+    cookieReadable: document.cookie.includes("browsersec_third_party=1"),
+    cookieEnabled: navigator.cookieEnabled,
+    hasStorageAccessAPI: typeof document.hasStorageAccess === "function"
+  };
+  const finish = (hasStorageAccess) => {
+    result.hasStorageAccess = hasStorageAccess;
+    parent.postMessage(result, "*");
+  };
+  if (result.hasStorageAccessAPI) {
+    document.hasStorageAccess().then(finish).catch(() => finish(null));
+  } else {
+    finish(null);
+  }
+})();
+</script>
