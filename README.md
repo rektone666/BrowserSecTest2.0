@@ -1,17 +1,17 @@
-# BrowserSec Framework v0.1
+# BrowserSecTest Framework v0.1
 
-BrowserSec is a local, automatic browser-security and privacy scanner intended to be usable by non-technical users.
+BrowserSec is a local plug'n'play , automatic browser-security and privacy scanner .
 
 ## What the user does
 
 1. Run `browsersec`.
 2. The default browser opens automatically.
-3. BrowserSec performs safe checks without asking for camera, microphone, location, file, password, or account access.
+3. BrowserSecTest performs safe checks without asking for camera, microphone, location, file, password, or account access 
 4. A plain-language HTML report opens automatically.
 
-The temporary HTTP service is internal. It binds only to `127.0.0.1`, uses a random scan token, starts automatically, and stops after the report is generated. No scan data is uploaded.
+The temporary HTTP service is internal. It binds only to `127.0.0.1`, uses a random scan token, starts automatically, and stops after the report is generated,
 
-## Current modules
+## V0.1 modules
 
 Version 0.1 includes 25 modules covering:
 
@@ -57,8 +57,16 @@ By default reports are created under `~/BrowserSec Reports/`:
 
 ## Scope and limitations
 
-BrowserSec is not an antivirus, exploit scanner, or proof that a browser is safe. It reports locally observable browser posture and privacy exposure. Version 0.1 intentionally avoids online IP, DNS, proxy, TLS, reputation, breach, and update checks. Those can be added later as clearly optional online modules.
+BrowserSec is not an antivirus, exploit scanner, or proof that a browser is safe. It reports locally observable browser posture and privacy exposure. 
 
 ## Project status
+This is the frist full RE-WORK of my old BrowserCheckTests script  , Same concept but a fully plug-n-play framework . V0.1  more then a proper release its testing run  . 
 
-This is an initial testable build. The scoring model, wording, browser compatibility, packaging, signing, GUI, website integration, and mobile versions are expected to evolve.
+Future updates  : 
+
+> Mails , Passwords & Usernames  lookup by dedicated services 
+> Website integration 
+> enforcing Zero-Storage policy :  no analytics, telemetry, crash uploads, identifiers, or remote scan history.
+> GUI interface
+
+&  many more 
