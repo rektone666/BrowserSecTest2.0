@@ -65,8 +65,15 @@ This is the frist full RE-WORK of my old BrowserCheckTests script  , Same concep
 Future updates  : 
 
 > Mails , Passwords & Usernames  lookup by dedicated services 
+
+
 > Website integration 
+
+
 > enforcing Zero-Storage policy :  no analytics, telemetry, crash uploads, identifiers, or remote scan history.
+
+
 > GUI interface
+
 
 &  many more 
