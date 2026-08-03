@@ -1,6 +1,8 @@
+<img width="783" height="104" alt="12" src="https://github.com/user-attachments/assets/3e8bbe85-ba0b-41e8-8c11-6a3711354774" />
+
 # BrowserSecTest Framework v0.1
 
-BrowserSec is a local plug'n'play , automatic browser-security and privacy scanner .
+BrowserSec is a local plug'n'play , automatic browser-security and privacy scanner . ( ASSISTANTS 5.6-SOL & LUNA ) 
 
 ## What the user does
 
@@ -73,7 +75,15 @@ Future updates  :
 > enforcing Zero-Storage policy :  no analytics, telemetry, crash uploads, identifiers, or remote scan history.
 
 
-> GUI interface
+&  many more
 
 
-&  many more 
+## Some screenshots 
+
+<img width="1513" height="793" alt="frame1" src="https://github.com/user-attachments/assets/59d0b3a2-2013-4941-970e-ae293aba5e1e" />
+
+////
+
+<img width="1122" height="889" alt="frame2" src="https://github.com/user-attachments/assets/fde19fa2-4513-46ca-aeb5-9ea8b6f1f892" />
+
+
